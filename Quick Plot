@@ -1,1 +1,3 @@
-I've included a file "field_values.mat"
+[X,Y,Z] = meshgrid(-10:.5:10,-10:.5:10,-10:.5:10);
+figure()
+quiver3(X,Y,Z,Bs,Bphi,Bz)
